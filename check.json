@@ -1,0 +1,56 @@
+{
+  "command": [
+    "pwsh",
+    "-NoProfile",
+    "-File",
+    "app.ps1"
+  ],
+  "expected": {
+    "as_of": "2026-11-25",
+    "open_loans": 2,
+    "overdue_loans": 1,
+    "missing_report_count": 2,
+    "loans": [
+      {
+        "id": "L-041",
+        "artwork": "Blue hour study",
+        "due_on": "2026-11-20",
+        "returned_on": null,
+        "status": "overdue",
+        "days_late": 5,
+        "missing_reports": []
+      },
+      {
+        "id": "L-042",
+        "artwork": "Quarry forms",
+        "due_on": "2026-11-21",
+        "returned_on": "2026-11-23",
+        "status": "returned_late",
+        "days_late": 2,
+        "missing_reports": [
+          "return_condition"
+        ]
+      },
+      {
+        "id": "L-043",
+        "artwork": "Field lines",
+        "due_on": "2026-12-02",
+        "returned_on": null,
+        "status": "on_loan",
+        "days_late": 0,
+        "missing_reports": [
+          "outbound_condition"
+        ]
+      },
+      {
+        "id": "L-044",
+        "artwork": "Window ledger",
+        "due_on": "2026-11-21",
+        "returned_on": "2026-11-21",
+        "status": "returned",
+        "days_late": 0,
+        "missing_reports": []
+      }
+    ]
+  }
+}

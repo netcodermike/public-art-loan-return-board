@@ -1,0 +1,37 @@
+{
+  "as_of": "2026-11-25",
+  "loans": [
+    {
+      "id": "L-041",
+      "artwork": "Blue hour study",
+      "due_on": "2026-11-20",
+      "returned_on": null,
+      "outbound_report": true,
+      "return_report": false
+    },
+    {
+      "id": "L-042",
+      "artwork": "Quarry forms",
+      "due_on": "2026-11-21",
+      "returned_on": "2026-11-23",
+      "outbound_report": true,
+      "return_report": false
+    },
+    {
+      "id": "L-043",
+      "artwork": "Field lines",
+      "due_on": "2026-12-02",
+      "returned_on": null,
+      "outbound_report": false,
+      "return_report": false
+    },
+    {
+      "id": "L-044",
+      "artwork": "Window ledger",
+      "due_on": "2026-11-21",
+      "returned_on": "2026-11-21",
+      "outbound_report": true,
+      "return_report": true
+    }
+  ]
+}
